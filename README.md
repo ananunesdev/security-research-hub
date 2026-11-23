@@ -1,100 +1,132 @@
 # Security Research Hub
 
-**Research · Experimentation · Knowledge**
+<p align="center">
+  <strong>RESEARCH · EXPERIMENTATION · KNOWLEDGE</strong>
+</p>
 
-An independent space for cybersecurity research, hands-on experimentation, technical documentation, and continuous learning.
+<p align="center">
+  An independent space for cybersecurity research, practical experimentation, technical documentation, and continuous learning.
+</p>
 
-> This repository documents a learning and research journey across cybersecurity domains. It is not intended to represent professional certification, production experience, or affiliation with any employer.
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.pt-BR.md">Português (BR)</a>
+</p>
 
-## Objectives
+---
 
-- Build and consolidate foundational cybersecurity knowledge.
-- Explore multiple security domains before choosing a specialization.
-- Document reproducible labs and technical experiments.
-- Analyze security concepts, incidents, vulnerabilities, and defensive techniques.
-- Develop practical skills in infrastructure, cloud, networking, security operations, and automation.
+## About the Project
 
-## Research areas
+**Security Research Hub** is a personal cybersecurity research and learning repository focused on exploring security concepts, conducting hands-on experiments, documenting technical findings, and developing practical skills.
 
-| Area | Scope |
+The project brings together theoretical knowledge and practical application across different areas of information security, providing a structured environment for continuous learning and technical development.
+
+Rather than focusing on a single specialization, this repository explores the broader cybersecurity landscape, connecting foundational concepts with real-world security practices.
+
+## Research Domains
+
+| Domain | Focus |
 |---|---|
-| Fundamentals | Security principles, cryptography, risk, identity, and architecture |
-| Networking | Protocols, traffic analysis, segmentation, and network defense |
-| Systems & Infrastructure | Linux, Windows, identity services, hardening, and administration |
-| Security Operations | SIEM, logs, detection engineering, and incident response |
-| Cloud Security | Cloud foundations, IAM, configuration, and monitoring |
-| Offensive Security | Authorized testing, reconnaissance, and vulnerability analysis |
-| Automation | Python, scripting, integrations, and SOAR concepts |
-| Research | Case studies, threat research, technical notes, and references |
+| **Fundamentals** | Security principles, cryptography, identity, access control, and risk management |
+| **Networking** | Network protocols, traffic analysis, segmentation, and network defense |
+| **Systems & Infrastructure** | Linux, Windows, Active Directory, system administration, and hardening |
+| **Security Operations** | SIEM, log analysis, threat detection, and incident response |
+| **Cloud Security** | Cloud architecture, IAM, security configurations, and monitoring |
+| **Offensive Security** | Reconnaissance, vulnerability assessment, and authorized security testing |
+| **Automation** | Python, scripting, integrations, and security workflow automation |
+| **Research & Analysis** | Technical research, case studies, threat analysis, and security documentation |
 
-## Repository map
+## Repository Navigation
 
-```text
-security-research-hub/
-├── 01-fundamentals/
-├── 02-networking/
-├── 03-systems-infrastructure/
-├── 04-security-operations/
-├── 05-cloud-security/
-├── 06-offensive-security/
-├── 07-automation/
-├── 08-research/
-├── 09-projects/
-├── 10-resources/
-├── docs/
-├── templates/
-└── README.md
-```
+Explore the repository by research area:
 
-See [REPOSITORY-STRUCTURE.md](docs/REPOSITORY-STRUCTURE.md) for the full map and conventions.
+| Directory | Description |
+|---|---|
+| [`01-fundamentals/`](01-fundamentals/) | Core cybersecurity concepts |
+| [`02-networking/`](02-networking/) | Networking and network security |
+| [`03-systems-infrastructure/`](03-systems-infrastructure/) | Operating systems and infrastructure |
+| [`04-security-operations/`](04-security-operations/) | Monitoring, detection, and response |
+| [`05-cloud-security/`](05-cloud-security/) | Cloud platforms and security |
+| [`06-offensive-security/`](06-offensive-security/) | Authorized offensive security research |
+| [`07-automation/`](07-automation/) | Scripts and security automation |
+| [`08-research/`](08-research/) | Research, case studies, and technical notes |
+| [`09-projects/`](09-projects/) | Integrated practical projects |
+| [`10-resources/`](10-resources/) | Learning materials and references |
 
-## Featured work
+## Research & Practical Work
 
-Projects and research will be added here as they become sufficiently documented.
+The repository includes different types of technical contributions:
 
-| Project / study | Area | Status |
+- **Research:** Structured investigations of cybersecurity concepts, technologies, and threats.
+- **Hands-on Labs:** Practical experiments conducted in controlled environments.
+- **Technical Write-ups:** Detailed explanations of procedures, configurations, and findings.
+- **Case Studies:** Analysis of publicly documented security incidents and simulated scenarios.
+- **Automation Projects:** Scripts and experiments involving security-related workflows.
+- **Knowledge Base:** Organized technical notes and reference materials.
+
+## Featured Projects
+
+*Projects will be featured here as they are developed and documented.*
+
+| Project | Domain | Status |
 |---|---|---|
-| Initial repository architecture | Documentation | In progress |
-| First reproducible lab | To be defined | Planned |
+| To be announced | — | Planned |
 
-## Documentation standards
+## Tools & Technologies
 
-Each substantial lab or research document should explain:
+Technologies and tools explored throughout the research process include:
 
-1. **Context:** What is being explored and why?
-2. **Objective:** What question or skill does it address?
-3. **Environment:** Which tools, versions, and configurations are used?
-4. **Method:** What steps were performed?
-5. **Evidence:** What outputs, observations, or artifacts support the findings?
-6. **Analysis:** What do the results mean?
-7. **Limitations:** What was not tested or cannot be concluded?
-8. **References:** Which reliable sources were consulted?
+- **Networking:** Wireshark, Cisco Packet Tracer
+- **Systems:** Linux, Windows Server, Active Directory
+- **Security Operations:** IBM QRadar, Wazuh
+- **Cloud:** Amazon Web Services (AWS)
+- **Offensive Security:** OWASP Juice Shop, Burp Suite Community Edition
+- **Automation:** Python, Bash
 
-Use the templates in [`templates/`](templates/) to keep documentation consistent.
+*This list evolves as new tools and technologies are explored. Inclusion does not imply professional proficiency.*
 
-## Ethical and safety boundaries
+## Documentation Standards
 
-- Perform security testing only on systems you own or are explicitly authorized to assess.
-- Use isolated labs, intentionally vulnerable applications, and synthetic data.
-- Never publish credentials, tokens, personal data, private keys, internal logs, customer information, or employer-confidential material.
-- Sanitize screenshots, command output, packet captures, and configuration files before publishing.
-- Clearly label simulations and avoid presenting simulated findings as real incidents.
-- Follow applicable laws, platform terms, and responsible disclosure practices.
+Each substantial research document or practical lab follows a structured approach:
 
-Read [SECURITY.md](SECURITY.md) before using or contributing to this repository.
+1. **Context:** Introduction to the topic and its relevance.
+2. **Objective:** What the research or experiment aims to accomplish.
+3. **Environment:** Tools, technologies, versions, and configurations.
+4. **Methodology:** Procedures and technical decisions.
+5. **Evidence:** Relevant outputs, observations, and results.
+6. **Analysis:** Interpretation of findings and technical implications.
+7. **Limitations:** Constraints, uncertainties, and unresolved questions.
+8. **References:** Official documentation and supporting sources.
 
-## Languages
+## Project Roadmap
 
-The repository is bilingual where practical:
-- English: primary project language.
-- Portuguese (Brazil): companion documentation, marked with `pt-BR`.
+- [x] Establish repository architecture and documentation standards.
+- [x] Define research domains and project scope.
+- [ ] Develop foundational cybersecurity documentation.
+- [ ] Publish the first hands-on laboratories.
+- [ ] Expand technical research and case studies.
+- [ ] Develop integrated cybersecurity projects.
 
-When a document has a Portuguese counterpart, link both versions at the top of each file.
+See [`docs/ROADMAP.md`](docs/ROADMAP.md) for further details.
 
-## Status
+## Ethical Principles
 
-This is a continuously evolving personal research repository. Content is added as topics are studied and experiments are completed. A folder does not imply expertise in that domain.
+All practical activities documented in this repository are intended for educational and research purposes.
 
-## License
+- Security testing is conducted only in owned or explicitly authorized environments.
+- Sensitive information, credentials, and confidential data are never intentionally published.
+- Simulated scenarios are clearly identified.
+- External sources and original authors are properly credited.
+- Responsible disclosure and applicable laws are respected.
 
-Unless stated otherwise, original content is released under the MIT License. Third-party materials remain subject to their respective licenses and terms.
+See [`SECURITY.md`](SECURITY.md) for additional guidelines.
+
+---
+
+<p align="center">
+  <strong>Curiosity drives research. Practice builds understanding.</strong>
+</p>
+
+<p align="center">
+  A continuously evolving cybersecurity knowledge repository.
+</p>
